@@ -1,7 +1,7 @@
 try:
     total_score = input('Enter Total score: ')
     score = float(total_score)
-    if score <= 90:
+    if 90 <= score <= 100:
         print('Grade: A')
     elif score <= 80:
         print('Grade: B')
